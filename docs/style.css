@@ -1,0 +1,13 @@
+html {
+    background-color: #3b3b3b;
+    color: #a3b7c6;
+    font-family: sans-serif;
+}
+
+a {
+    color: #a3b7c6;
+}
+
+a:hover {
+    color: #788491;
+}
