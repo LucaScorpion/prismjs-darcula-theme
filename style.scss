@@ -147,3 +147,15 @@ pre[class*="language-"] {
     color: $orange;
   }
 }
+
+.language-yaml .token {
+  color: $foreground;
+
+  &.key {
+    color: $orange;
+  }
+
+  &.string {
+    color: $green;
+  }
+}

@@ -88,5 +88,14 @@ public class Program {
   "string": "This is JSON"
 }
 </code></pre>
+
+        <pre><code class="language-yaml">version: '3.7'
+services:
+  rabbitmq:
+    image: rabbitmq:3.7-management
+    ports:
+      - 15672:15672
+      - 5672:5672
+</code></pre>
     </body>
 </html>
