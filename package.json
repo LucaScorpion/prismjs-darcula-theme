@@ -19,6 +19,7 @@
     "dark"
   ],
   "author": "@LucaScorpion",
+  "repository": "github:LucaScorpion/prismjs-darcula-theme",
   "license": "MIT",
   "devDependencies": {
     "node-sass": "^4.12.0"
