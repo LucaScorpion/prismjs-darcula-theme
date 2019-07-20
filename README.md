@@ -1,5 +1,8 @@
 # PrismJS Darcula Theme
 
+[![npm](https://img.shields.io/npm/v/prismjs-darcula-theme.svg)](https://www.npmjs.com/package/prismjs-darcula-theme)
+[![license](https://img.shields.io/npm/l/prismjs-darcula-theme.svg)](https://www.npmjs.com/package/prismjs-darcula-theme)
+
 A syntax highlighting theme for [PrismJS] based on the Darcula theme from the [JetBrains] IDEs.
 
 ## Examples
