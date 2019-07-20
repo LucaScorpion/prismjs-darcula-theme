@@ -1,4 +1,4 @@
-# Gatsby PrismJS Darcula Theme
+# PrismJS Darcula Theme
 
 ## Examples
 

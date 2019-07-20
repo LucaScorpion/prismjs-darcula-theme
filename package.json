@@ -1,21 +1,18 @@
 {
-  "name": "gatsby-prismjs-darcula",
+  "name": "prismjs-darcula-theme",
   "version": "1.0.0-0",
-  "description": "Gatsby PrismJS Darcula syntax highlighting theme",
-  "main": "style.css",
+  "description": "PrismJS Darcula syntax highlighting theme",
+  "main": "darcula.css",
   "scripts": {
-    "build": "node-sass style.scss style.css"
+    "build": "node-sass darcula.scss darcula.css",
+    "watch": "node-sass --watch darcula.scss darcula.css"
   },
   "keywords": [
-    "gatsby",
     "prismjs",
-    "plugin",
-    "syntax",
-    "highlight",
-    "line",
-    "file",
     "darcula",
     "theme",
+    "syntax",
+    "highlight",
     "css",
     "scss",
     "style",
