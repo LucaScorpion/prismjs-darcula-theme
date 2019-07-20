@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../style.css" rel="stylesheet"/>
+        <script src="prism.js"></script>
+    </head>
+    <body>
+<pre><code class="language-js">class Circle {
+    constructor(radius) {
+        this.radius = radius;
+    }
+
+    /**
+     * Calculate the circumference of the circle.
+     *
+     * @return {number}
+     */
+    circumference() {
+        return 2 * Math.PI * this.radius;
+    }
+}
+
+const c = new Circle(0.5);
+console.log(c.circumference()); // 3.1415...
+</code></pre>
+
+        <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+        &lt;title&gt;Example&lt;/title&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;/&gt;
+    &lt;/head&gt;
+    &lt;body id=&quot;home&quot;&gt;
+        &lt;!-- Todo: write actual content --&gt;
+        &lt;div&gt;Lorem ipsum dolor sit amet&lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+        <pre><code class="language-java">import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+    public static void main(String[] args) {
+        List&lt;String&gt; valid = new ArrayList&lt;&gt;();
+
+        for (int i = 0; i < args.length; i++) {
+            String arg = args[i];
+
+            if (isValid(arg)) {
+                valid.add(arg);
+            }
+        }
+    }
+
+    /**
+     * Check if an argument is valid.
+     *
+     * @param arg The argument to check.
+     * @return Whether the argument is valid.
+     */
+    private static boolean isValid(String arg) {
+        return true; // Todo: Do actual check.
+    }
+}
+</code></pre>
+
+        <pre><code class="language-css">.row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Small screen rules */
+@media screen and (max-width: 800px){
+    .row {
+        flex-direction: column !important;
+    }
+}
+</code></pre>
+
+        <pre><code class="language-json">{
+  "ok": true,
+  "list": [
+    1,
+    2,
+    3
+  ],
+  "string": "This is JSON"
+}
+</code></pre>
+    </body>
+</html>
