@@ -5,7 +5,8 @@
   "main": "darcula.css",
   "scripts": {
     "build": "node-sass darcula.scss darcula.css",
-    "watch": "node-sass --watch darcula.scss darcula.css"
+    "docs": "node-sass darcula.scss docs/darcula.css",
+    "docs:watch": "node-sass --watch darcula.scss docs/darcula.css"
   },
   "keywords": [
     "prismjs",
