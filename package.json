@@ -17,7 +17,8 @@
     "css",
     "scss",
     "style",
-    "dark"
+    "dark",
+    "gatsby"
   ],
   "author": "@LucaScorpion",
   "repository": "github:LucaScorpion/prismjs-darcula-theme",

@@ -23,7 +23,7 @@ This theme can be used in Gatsby with [gatsby-remark-prismjs]. Simply install th
 npm install prismjs-darcula-theme
 ```
 
-Add this line in `gatsby-browser.js`:
+And add this line in `gatsby-browser.js`:
 
 ```js
 import 'prismjs-darcula-theme/darcula.css';
