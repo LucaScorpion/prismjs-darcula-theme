@@ -1,0 +1,9 @@
+# Node
+node_modules/
+
+# Build output
+style.css
+
+# JetBrains
+.idea/
+*.iml

@@ -1,0 +1,120 @@
+$background: #2b2b2b;
+$foreground: #a3b7c6;
+$comment: #808080;
+$selection: #214283;
+$lineHighlight: #323232;
+
+$orange: #cc7832;
+$yellow: #e8bf6a;
+$brightYellow: #bbb529;
+$green: #6a8759;
+$brightGreen: #a5c261;
+$purple: #9876aa;
+$blue: #6897bb;
+
+$fonts: PT Mono, Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+$font-size: 16px;
+$line-height: 24px;
+$padding: 2px 5px;
+$tab-size: 4;
+
+pre,
+code {
+  &[class*="language-"] {
+    color: $foreground;
+    background: $background;
+    text-shadow: none;
+    font-size: $font-size;
+    font-family: $fonts;
+    line-height: $line-height;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    tab-size: $tab-size;
+    hyphens: none;
+
+    ::selection,
+    &::selection {
+      text-shadow: none;
+      background-color: $selection;
+    }
+  }
+}
+
+pre {
+  &[class*="language-"] {
+    overflow: auto;
+    background: $background;
+  }
+}
+
+:not(pre) > code[class*="language-"] {
+  padding: $padding;
+  background: $background;
+  white-space: normal;
+}
+
+.token {
+  &.comment {
+    color: $comment;
+  }
+
+  &.keyword,
+  &.boolean,
+  &.constant,
+  &.null,
+  &.important {
+    color: $orange
+  }
+
+
+  &.number {
+    color: $blue;
+  }
+
+  &.doctype,
+  &.function {
+    color: $yellow;
+  }
+
+  &.tag {
+    color: $yellow;
+
+    .attr-name {
+      color: $foreground;
+    }
+
+    .attr-value {
+      color: $brightGreen;
+    }
+  }
+
+  &.comment,
+  &.string,
+  &.regex,
+  &.char {
+    color: $green;
+  }
+
+  &.annotation {
+    color: $brightYellow;
+  }
+
+  &.important {
+    font-weight: bold;
+  }
+
+  &.bold {
+    font-weight: bold;
+  }
+
+  &.italic {
+    font-style: italic;
+  }
+
+  &.entity {
+    cursor: help;
+  }
+}
