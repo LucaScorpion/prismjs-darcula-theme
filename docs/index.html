@@ -68,6 +68,7 @@ console.log(c.circumference()); // 3.1415...
         <pre><code class="language-java">import java.util.ArrayList;
 import java.util.List;
 
+@Name("program")
 public class Program {
     public static void main(String[] args) {
         List&lt;String&gt; valid = new ArrayList&lt;&gt;();
@@ -94,13 +95,17 @@ public class Program {
 </code></pre>
 
         <h3>CSS</h3>
-        <pre><code class="language-css">.row {
+        <pre><code class="language-css">main {
+    background-image: url('some/image.jpg');
+}
+
+.list > .row {
     display: flex;
-    flex-direction: row;
+    color: #6a8759;
 }
 
 /* Small screen rules */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     .row {
         flex-direction: column !important;
     }
@@ -115,12 +120,16 @@ public class Program {
     2,
     3
   ],
-  "string": "This is JSON"
+  "string": "This is JSON",
+  "nested": {
+    "object": false
+  }
 }
 </code></pre>
 
         <h3>YAML</h3>
-        <pre><code class="language-yaml">version: '3.7'
+        <pre><code class="language-yaml"># A comment
+version: '3.7'
 services:
   rabbitmq:
     image: rabbitmq:3.7-management

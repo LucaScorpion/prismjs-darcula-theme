@@ -140,6 +140,14 @@ pre[class*="language-"] {
 
 // Language-specific colors.
 
+.language-css .token {
+  &.atrule {
+    .keyword {
+      color: $yellow;
+    }
+  }
+}
+
 .language-json .token {
   &.property {
     color: $purple;
@@ -152,6 +160,11 @@ pre[class*="language-"] {
 
 .language-yaml .token {
   color: $foreground;
+
+  &.comment {
+    color: $green;
+    font-style: italic;
+  }
 
   &.key {
     color: $orange;
