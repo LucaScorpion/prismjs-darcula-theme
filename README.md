@@ -7,16 +7,17 @@ A syntax highlighting theme for [PrismJS] based on the Darcula theme from the [J
 
 ## Examples
 
-Check out the [examples on GitHub pages](https://lucascorpion.github.io/prismjs-darcula-theme) for:
-
-- JavaScript
-- HTML
-- Java
-- CSS
-- JSON
-- YAML
+Check out the examples on [GitHub pages](https://lucascorpion.github.io/prismjs-darcula-theme).
 
 ## Usage
+
+### HTML
+
+Download and include the compiled stylesheet in the `head` of your html:
+
+```html
+<link href="darcula.css" rel="stylesheet"/>
+```
 
 ### Gatsby
 
@@ -30,12 +31,6 @@ And add this line in `gatsby-browser.js`:
 
 ```js
 import 'prismjs-darcula-theme/darcula.css';
-```
-
-Alternatively, if you're using [gatsby-plugin-sass] you can use the original SCSS:
-
-```js
-import 'prismjs-darcula-theme/darcula.scss';
 ```
 
 ## Development

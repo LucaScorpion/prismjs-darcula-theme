@@ -1,12 +1,12 @@
 {
   "name": "prismjs-darcula-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PrismJS Darcula syntax highlighting theme based on the JetBrains IDEs",
   "main": "darcula.css",
   "scripts": {
-    "build": "node-sass darcula.scss darcula.css",
-    "docs": "node-sass darcula.scss docs/darcula.css",
-    "docs:watch": "node-sass --watch darcula.scss docs/darcula.css",
+    "build": "node-sass --output-style compressed darcula.scss darcula.css",
+    "docs": "node-sass --output-style compressed darcula.scss docs/darcula.css",
+    "docs:watch": "node-sass --output-style compressed --watch darcula.scss docs/darcula.css",
     "prepack": "npm run build"
   },
   "keywords": [
@@ -25,6 +25,6 @@
   "repository": "github:LucaScorpion/prismjs-darcula-theme",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.14.1"
   }
 }
