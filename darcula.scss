@@ -140,6 +140,14 @@ pre[class*="language-"] {
 
 // Language-specific colors.
 
+.language-css .token {
+  &.atrule {
+    .keyword {
+      color: $yellow;
+    }
+  }
+}
+
 .language-json .token {
   &.property {
     color: $purple;
