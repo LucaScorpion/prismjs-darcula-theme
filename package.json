@@ -4,9 +4,9 @@
   "description": "PrismJS Darcula syntax highlighting theme based on the JetBrains IDEs",
   "main": "darcula.css",
   "scripts": {
-    "build": "node-sass darcula.scss darcula.css",
-    "docs": "node-sass darcula.scss docs/darcula.css",
-    "docs:watch": "node-sass --watch darcula.scss docs/darcula.css",
+    "build": "node-sass --output-style compressed darcula.scss darcula.css",
+    "docs": "node-sass --output-style compressed darcula.scss docs/darcula.css",
+    "docs:watch": "node-sass --output-style compressed --watch darcula.scss docs/darcula.css",
     "prepack": "npm run build"
   },
   "keywords": [
