@@ -161,6 +161,11 @@ pre[class*="language-"] {
 .language-yaml .token {
   color: $foreground;
 
+  &.comment {
+    color: $green;
+    font-style: italic;
+  }
+
   &.key {
     color: $orange;
   }
