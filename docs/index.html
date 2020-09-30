@@ -2,19 +2,31 @@
 <html>
     <head>
         <title>PrismJS Darcula Theme</title>
-
-        <link href="style.css" rel="stylesheet"/>
-        <link href="darcula.css" rel="stylesheet"/>
+        <link href="style.css" rel="stylesheet" />
+        <link href="darcula.css" rel="stylesheet" />
         <script src="prism.js"></script>
     </head>
     <body>
-
         <a class="top-right" href="https://github.com/LucaScorpion/prismjs-darcula-theme">
             <img src="fork-me.png" alt="Fork me on GitHub">
         </a>
 
         <h1>PrismJS Darcula Theme</h1>
         GitHub: <a href="https://github.com/LucaScorpion/prismjs-darcula-theme">LucaScorpion/prismjs-darcula-theme</a>
+
+        <h2>Usage</h2>
+
+        <h3>HTML</h3>
+        Download and include the compiled stylesheet in the <code class="language-none">head</code> of your html:
+        <pre><code class="language-html">&lt;link href="darcula.css" rel="stylesheet"/&gt;</code></pre>
+
+        <h3>Gatsby</h3>
+        This theme can be used in Gatsby with
+        <a href="https://www.gatsbyjs.org/packages/gatsby-remark-prismjs" target="_blank">gatsby-remark-prismjs</a>.
+        Simply install the package using:
+        <pre><code class="language-shell">npm install prismjs-darcula-theme</code></pre>
+        And add this line in <code class="language-none">gatsby-browser.js</code>:
+        <pre><code class="language-js">import 'prismjs-darcula-theme/darcula.css';</code></pre>
 
         <h2>Examples</h2>
 

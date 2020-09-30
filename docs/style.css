@@ -4,6 +4,12 @@ html {
     font-family: sans-serif;
 }
 
+body {
+    margin: 0 auto;
+    padding: 0 32px 32px;
+    max-width: 1000px;
+}
+
 a {
     color: #a3b7c6;
 }
