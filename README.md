@@ -7,7 +7,9 @@ A syntax highlighting theme for [PrismJS] based on the Darcula theme from the [J
 
 ## Examples
 
-Check out the examples on [GitHub pages](https://lucascorpion.github.io/prismjs-darcula-theme).
+![Example screenshot](screenshot.png)
+
+Check out more examples and other languages on [GitHub pages](https://lucascorpion.github.io/prismjs-darcula-theme).
 
 ## Usage
 
@@ -16,7 +18,7 @@ Check out the examples on [GitHub pages](https://lucascorpion.github.io/prismjs-
 Download and include the compiled stylesheet in the `head` of your html:
 
 ```html
-<link href="darcula.css" rel="stylesheet"/>
+<link href="darcula.css" rel="stylesheet" />
 ```
 
 ### Gatsby
