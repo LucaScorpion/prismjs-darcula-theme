@@ -20,7 +20,8 @@ $padding: 4px 8px 6px;
 $tab-size: 4;
 
 pre,
-code {
+code,
+.token {
   &[class*="language-"] {
     color: $foreground;
     background: $background;
