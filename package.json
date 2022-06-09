@@ -1,6 +1,6 @@
 {
   "name": "prismjs-darcula-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PrismJS Darcula syntax highlighting theme based on the JetBrains IDEs",
   "main": "darcula.css",
   "scripts": {
