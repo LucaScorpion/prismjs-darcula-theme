@@ -21,15 +21,42 @@ Download and include the compiled stylesheet in the `head` of your html:
 <link href="darcula.css" rel="stylesheet" />
 ```
 
-### Gatsby
+### Astro
 
-This theme can be used in Gatsby with [gatsby-remark-prismjs]. Simply install the package using:
+Install the package:
 
 ```shell
 npm install prismjs-darcula-theme
 ```
 
-And add this line in `gatsby-browser.js`:
+Ensure you are using the `prism` syntax highlighting mode in `astro.config.mjs`:
+
+```js
+import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  markdown: {
+    syntaxHighlight: 'prism',
+  },
+});
+```
+
+Add this to your component:
+
+```js
+import 'prismjs-darcula-theme/darcula.css';
+```
+
+### Gatsby
+
+This theme can be used in Gatsby with [gatsby-remark-prismjs].
+Install the package using:
+
+```shell
+npm install prismjs-darcula-theme
+```
+
+Add this import to `gatsby-browser.js`:
 
 ```js
 import 'prismjs-darcula-theme/darcula.css';
@@ -37,7 +64,9 @@ import 'prismjs-darcula-theme/darcula.css';
 
 ## Development
 
-Run `npm run docs:watch` to watch `darcula.scss` for file changes, compiling it to `docs/darcula.css`. To compile the file without watching for changes, use `npm run docs`. Open `docs/index.html` in your browser to view the results.
+Run `npm run docs:watch` to watch `darcula.scss` for file changes, compiling it to `docs/darcula.css`.
+To compile the file without watching for changes, use `npm run docs`.
+Open `docs/index.html` in your browser to view the results.
 
 [PrismJS]: https://prismjs.com
 [JetBrains]: https://www.jetbrains.com
